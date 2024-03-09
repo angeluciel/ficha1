@@ -7,8 +7,39 @@
     background-color: #1b1b25;
 }
 
+.botao_1,
+.botao_2 {
+    border-radius: 50px;
+}
+
+.botao button {
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+    padding: 9px 25px;
+    border: 50px;
+    border: red;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.botao button:hover{
+    background-color: #414141;
+}
+
 .short,
 .Long {
     max-width: 1rem;
     max-height: 1rem;
 }
+
+.background-header {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+}
+
+span {
+    color: rgb(202, 202, 202);
+}
+
